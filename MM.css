@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Tilt Warp", sans-serif;
+    font-weight: 100;
+    position: static;
+    letter-spacing: 3px;
+    
+    
+}
+
+body{
+    background: radial-gradient(rgb(68, 243, 147), rgba(148,233,188), rgba(148,187,233,1));
+    
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgba(50, 160, 204, 0.438);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: mediumpurple;
+    border-radius: 20px;
+
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px 2px #eee;
+    background: rgb(175, 250, 225);
+}
+
+header:hover{
+    background-color: cyan;
+}
+
+h1{
+    margin: 20px;
+    padding-top: 20px;
+    margin-top:-10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    display: grid;
+    margin: 20px 0;
+    margin-top: -1%;
+}
+
+audio{
+    margin: 40px 0;
+    margin-top: 50px 0;
+    width: 480px;
+}
+
+img{
+    box-shadow: 0 0 3px 2px #eee;
+    width: 480px;
+    height: 440px;
+    margin-top: 25px;
+}
+
+i{
+    color: black;
+}
+
+/*.player {
+    position: fixed;
+    display:inline;
+    padding: 5px;
+
+}
+
+.botao-antes{
+    margin: -50px;
+}
+
+.botao-depois{
+    margin: 600px;
+}
+*/
+.som{
+    width: 100%;
+    text-align: center;
+}
+
+small{
+    display: block;
+    padding: 1rem 0;
+    font-size: 0.99rem;
+    transition: opacity 0.33s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 250px;
+    height: 50px;
+    border-style: none;
+    border: 1px solid #eee;
+    border-top: blueviolet;
+}
+
+.select-box{
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    color: black;
+    background-color: aquamarine;
+    font-size: 16px;
+    border: 1px solid #eee;
+    border-radius: #eee;
+
+}
+
+.icon-container{
+    color: black;
+}
+
+h3{
+    font-size: 0.77rem;
+}
+
+input{
+    width: 250px;
+}
+
+textarea{
+    width: 350px;
+    height: 150px;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(80, 167, 238, 0.9);
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.25;
+    &:hover,:focus{
+        outline: none;
+        background-color: rgb(81, 134, 202);
+    }
+}
+
+h3{
+    font-size: 10px;
+}
+
+p{
+    font-size: 10px;
+    margin: 15px;
+    margin-top: -10px;
+    padding-top: -10px;
+}
+
+.inicio{
+    background: rgb(175, 250, 225);
+    animation-name: inicio;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+@keyframes inicio{
+    from{
+        background-color: aquamarine;
+    } to{
+        background-color: blueviolet;
+    }
+}
+
+@keyframes inicio{
+    0%{
+        background-color:darkturquoise;
+    }
+    25%{
+        background-color: rgb(172, 211, 238);
+    }
+    50%{
+        background-color: rgb(197, 189, 248);
+    }
+    100%{
+        background-color: rgb(174, 231, 241);
+    }
+}
+
+.artista{
+    margin-top: 5px;
+    padding: 20px;
+    padding-top: 10%;
+    background: rgb(175, 250, 225);
+    animation-name: inicio;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes artista{
+    from{
+        background-color: aquamarine;
+    } to{
+        background-color: blueviolet;
+    }
+}
+
+@keyframes artista{
+    0%{
+        background-color:darkturquoise;
+    }
+    25%{
+        background-color: rgb(172, 211, 238);
+    }
+    50%{
+        background-color: rgb(197, 189, 248);
+    }
+    100%{
+        background-color: rgb(174, 231, 241);
+    }
+}
